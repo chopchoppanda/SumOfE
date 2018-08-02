@@ -17,7 +17,7 @@ namespace SumOfE.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your is changed application description page.";
+            ViewData["Message"] = "Your is dev branch changed application description page.";
 
             return View();
         }
